@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.1.1)  19 JAN 2020 12:24
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.1.1)  19 JAN 2020 12:42
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
 **test-with-arara.tex
 (./test-with-arara.tex
 LaTeX2e <2019-10-01> patch level 3
-(/opt/texlive/texdir/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(./test.tex (/opt/texlive/texdir/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count80
 )
@@ -804,7 +804,7 @@ apping=tex-text;"
 (fontspec)             <->"[XITS-BoldItalic.otf]/OT:script=latn;language=DFLT;m
 apping=tex-text;"
 
-LaTeX Info: Redefining \rmfamily on input line 70.
+LaTeX Info: Redefining \rmfamily on input line 68.
 
 Package fontspec Info: Font family 'XITS(1)' created for font 'XITS' with
 (fontspec)             options
@@ -836,11 +836,11 @@ alic},BoldItalicFeatures={SmallCapsFont=*-BoldItalic}].
 
 
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/XITS(1)/m/n on input line 70.
+(Font)                  OT1/cmr/m/n --> TU/XITS(1)/m/n on input line 68.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/XITS(1)/m/it on input line 70.
+(Font)                  OT1/cmr/m/it --> TU/XITS(1)/m/it on input line 68.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/XITS(1)/bx/n on input line 70.
+(Font)                  OT1/cmr/bx/n --> TU/XITS(1)/bx/n on input line 68.
 
 Package fontspec Info: Font family 'texgyreheros(0)' created for font
 (fontspec)             'texgyreheros' with options
@@ -875,7 +875,7 @@ e=DFLT;mapping=tex-text;"
 (fontspec)             <->"[texgyreheros-bolditalic.otf]/OT:script=latn;languag
 e=DFLT;+smcp;mapping=tex-text;"
 
-LaTeX Info: Redefining \sffamily on input line 70.
+LaTeX Info: Redefining \sffamily on input line 68.
 
 Package fontspec Info: Font family 'texgyreheros(1)' created for font
 (fontspec)             'texgyreheros' with options
@@ -911,11 +911,11 @@ e=DFLT;"
 e=DFLT;+smcp;"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/texgyreheros(1)/m/n on input line 7
-0.
+(Font)                  OT1/cmss/m/n --> TU/texgyreheros(1)/m/n on input line 6
+8.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/texgyreheros(1)/bx/n on input line
- 70.
+ 68.
 
 Package fontspec Info: Font family 'texgyrecursor(0)' created for font
 (fontspec)             'texgyrecursor' with options
@@ -971,7 +971,7 @@ ge=DFLT;-liga;+smcp;"
 (fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 
-LaTeX Info: Redefining \ttfamily on input line 70.
+LaTeX Info: Redefining \ttfamily on input line 68.
 
 Package fontspec Info: Font family 'texgyrecursor(1)' created for font
 (fontspec)             'texgyrecursor' with options
@@ -1008,10 +1008,10 @@ ge=DFLT;-liga;+smcp;"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/cmtt/m/n --> TU/texgyrecursor(1)/m/n on input line 
-70.
+68.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/texgyrecursor(1)/bx/n on input line
- 70.
+ 68.
 
 Package fontspec Info: Font family 'XITSMath-Regular.otf(0)' created for font
 (fontspec)             'XITSMath-Regular.otf' with options
@@ -1051,15 +1051,15 @@ sty=1;"
 (fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 70.
+(Font)              `operators' in the math version `normal' on input line 68.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/XITSMath-Regular.otf(1)/m/n on input
- line 70.
+ line 68.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 70.
+(Font)              `operators' in the math version `bold' on input line 68.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/XITSMath-Regular.otf(1)/bx/n on inp
-ut line 70.
+ut line 68.
 
 Package fontspec Info: XITSMath-Regular scale = 1.0001.
 
@@ -1131,15 +1131,15 @@ e=DFLT;"
 (fontspec)             =0pt\relax \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 70.
+(Font)              `symbols' in the math version `normal' on input line 68.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/cmsy/m/n --> TU/XITSMath-Regular.otf(2)/m/n on inpu
-t line 70.
+t line 68.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 70.
+(Font)              `symbols' in the math version `bold' on input line 68.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> TU/XITSMath-Regular.otf(2)/bx/n on inp
-ut line 70.
+ut line 68.
 
 Package fontspec Info: XITSMath-Regular scale = 0.9999.
 
@@ -1193,17 +1193,17 @@ e=DFLT;"
 (fontspec)             =7.227pt\relax \fontdimen 13\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 7
-0.
+(Font)              `largesymbols' in the math version `normal' on input line 6
+8.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> TU/XITSMath-Regular.otf(3)/m/n on inpu
-t line 70.
+t line 68.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 70.
+(Font)              `largesymbols' in the math version `bold' on input line 68.
 
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> TU/XITSMath-Regular.otf(3)/bx/n on inp
-ut line 70.
+ut line 68.
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
@@ -1351,9 +1351,9 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip111
 )
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 70.
-Package hyperref Info: Option `colorlinks' set `true' on input line 70.
-Package hyperref Info: Option `colorlinks' set `true' on input line 70.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 68.
+Package hyperref Info: Option `colorlinks' set `true' on input line 68.
+Package hyperref Info: Option `colorlinks' set `true' on input line 68.
 
 Package fontspec Info: Font family 'FandolSong(0)' created for font
 (fontspec)             'FandolSong' with options
@@ -1382,28 +1382,28 @@ Package fontspec Info: Font family 'FandolSong(0)' created for font
 (./test-with-arara.aux)
 \openout1 = `test-with-arara.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 70.
+LaTeX Info: Redefining \selectfont on input line 68.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1465,57 +1465,57 @@ Package fontspec Info: Font family 'FandolHei(0)' created for font 'FandolHei'
 (fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 9.0347pt on input line 70.
+(Font)              scaled to size 9.0347pt on input line 68.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 70.
+(Font)              scaled to size 6.00064pt on input line 68.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 70.
+(Font)              scaled to size 5.00053pt on input line 68.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 9.03276pt on input line 70.
+(Font)              scaled to size 9.03276pt on input line 68.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 70.
+(Font)              scaled to size 5.99936pt on input line 68.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 70.
+(Font)              scaled to size 4.99947pt on input line 68.
 File: ../testfiles/support/fudan-name.pdf Graphic file (type pdf)
 <use ../testfiles/support/fudan-name.pdf>
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 18.06941pt on input line 70.
+(Font)              scaled to size 18.06941pt on input line 68.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 15.05785pt on input line 70.
+(Font)              scaled to size 15.05785pt on input line 68.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 12.04628pt on input line 70.
+(Font)              scaled to size 12.04628pt on input line 68.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 18.06555pt on input line 70.
+(Font)              scaled to size 18.06555pt on input line 68.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 15.05463pt on input line 70.
+(Font)              scaled to size 15.05463pt on input line 68.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 12.0437pt on input line 70.
+(Font)              scaled to size 12.0437pt on input line 68.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 14.05399pt on input line 70.
+(Font)              scaled to size 14.05399pt on input line 68.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 10.54048pt on input line 70.
+(Font)              scaled to size 10.54048pt on input line 68.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 7.52892pt on input line 70.
+(Font)              scaled to size 7.52892pt on input line 68.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 14.05098pt on input line 70.
+(Font)              scaled to size 14.05098pt on input line 68.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 10.53824pt on input line 70.
+(Font)              scaled to size 10.53824pt on input line 68.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 7.52731pt on input line 70.
+(Font)              scaled to size 7.52731pt on input line 68.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 9.03471pt on input line 70.
+(Font)              scaled to size 9.03471pt on input line 68.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(2)/m/n' will be
-(Font)              scaled to size 7.22777pt on input line 70.
+(Font)              scaled to size 7.22777pt on input line 68.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 9.03278pt on input line 70.
+(Font)              scaled to size 9.03278pt on input line 68.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular.otf(3)/m/n' will be
-(Font)              scaled to size 7.22623pt on input line 70.
+(Font)              scaled to size 7.22623pt on input line 68.
 [1
 
 
 ] [2]
 \AtBeginShipoutBox=\box64
-Package hyperref Info: Link coloring ON on input line 70.
+Package hyperref Info: Link coloring ON on input line 68.
  (/opt/texlive/texdir/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1527,9 +1527,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count351
 )
-LaTeX Info: Redefining \ref on input line 70.
-LaTeX Info: Redefining \pageref on input line 70.
-LaTeX Info: Redefining \nameref on input line 70.
+LaTeX Info: Redefining \ref on input line 68.
+LaTeX Info: Redefining \pageref on input line 68.
+LaTeX Info: Redefining \nameref on input line 68.
 (./test-with-arara.out) (./test-with-arara.out)
 \@outlinefile=\write3
 \openout3 = `test-with-arara.out'.
@@ -1594,11 +1594,11 @@ r}].
 ] [2] [3] [4]
 
 LaTeX Font Warning: Font shape `TU/FandolSong(0)/m/sc' undefined
-(Font)              using `TU/FandolSong(0)/m/n' instead on input line 128.
+(Font)              using `TU/FandolSong(0)/m/n' instead on input line 126.
 
 
 LaTeX Font Warning: Font shape `TU/FandolHei(0)/m/sc' undefined
-(Font)              using `TU/FandolHei(0)/m/n' instead on input line 131.
+(Font)              using `TU/FandolHei(0)/m/n' instead on input line 129.
 
 
 Package fontspec Info: Font family 'FandolFang(0)' created for font
@@ -1629,7 +1629,7 @@ r}].
 
 
 LaTeX Font Warning: Font shape `TU/FandolFang(0)/m/sc' undefined
-(Font)              using `TU/FandolFang(0)/m/n' instead on input line 134.
+(Font)              using `TU/FandolFang(0)/m/n' instead on input line 132.
 
 Missing character: There is no ｡ in font [FandolSong-Regular.otf]/OT:mapping=fu
 llwidth-stop;!
@@ -1640,7 +1640,7 @@ llwidth-stop;!
 ]
 第2章
 )
-Overfull \hbox (20.56168pt too wide) in paragraph at lines 34--143
+Overfull \hbox (20.56168pt too wide) in paragraph at lines 34--141
 []\TU/XITS(0)/m/sc/12.045 Text[][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
@@ -1764,98 +1764,98 @@ File: ../testfiles/support/fudan-emblem-new.pdf Graphic file (type pdf)
 第6章
 
 Package natbib Warning: Citation `sunstein' on page 17 undefined on input line 
-153.
+151.
 
 
 Package natbib Warning: Citation `gjhjbhjkjbzs' on page 17 undefined on input l
-ine 153.
+ine 151.
 
 
 Package natbib Warning: Citation `hblzsthjkjyxgs' on page 17 undefined on input
- line 153.
+ line 151.
 
 
-Package natbib Warning: Citation `wyf' on page 17 undefined on input line 156.
+Package natbib Warning: Citation `wyf' on page 17 undefined on input line 154.
 
 
 Package natbib Warning: Citation `sunstein' on page 17 undefined on input line 
-156.
+154.
 
 
 Package natbib Warning: Citation `zgtsgxh' on page 17 undefined on input line 1
-56.
+54.
 
 
-Package natbib Warning: Citation `lzp1' on page 17 undefined on input line 156.
+Package natbib Warning: Citation `lzp1' on page 17 undefined on input line 154.
 
 
 
-Package natbib Warning: Citation `cdy' on page 17 undefined on input line 157.
+Package natbib Warning: Citation `cdy' on page 17 undefined on input line 155.
 
 
-Package natbib Warning: Citation `wfz' on page 17 undefined on input line 158.
+Package natbib Warning: Citation `wfz' on page 17 undefined on input line 156.
 
 
-Package natbib Warning: Citation `wfz1' on page 17 undefined on input line 158.
+Package natbib Warning: Citation `wfz1' on page 17 undefined on input line 156.
 
 
 
 Package natbib Warning: Citation `hlswedl' on page 17 undefined on input line 1
-59.
+57.
 
 
 Package natbib Warning: Citation `zgdylsdag' on page 17 undefined on input line
- 159.
+ 157.
 
 
-Package natbib Warning: Citation `wfz2' on page 17 undefined on input line 162.
+Package natbib Warning: Citation `wfz2' on page 17 undefined on input line 160.
 
 
 
-Package natbib Warning: Citation `cgw' on page 17 undefined on input line 163.
+Package natbib Warning: Citation `cgw' on page 17 undefined on input line 161.
 
 
-Package natbib Warning: Citation `mks' on page 17 undefined on input line 163.
+Package natbib Warning: Citation `mks' on page 17 undefined on input line 161.
 
 
-Package natbib Warning: Citation `wyf' on page 17 undefined on input line 164.
+Package natbib Warning: Citation `wyf' on page 17 undefined on input line 162.
 
 
 Package natbib Warning: Citation `hblzsthjkjyxgs' on page 17 undefined on input
- line 164.
+ line 162.
 
 
 Package natbib Warning: Citation `sunstein' on page 17 undefined on input line 
-164.
+162.
 
 
 Package natbib Warning: Citation `zgtsgxh' on page 17 undefined on input line 1
-64.
+62.
 
 
-Package natbib Warning: Citation `aaas' on page 17 undefined on input line 164.
+Package natbib Warning: Citation `aaas' on page 17 undefined on input line 162.
 
 
 
-Package natbib Warning: Citation `yjb' on page 17 undefined on input line 169.
+Package natbib Warning: Citation `yjb' on page 17 undefined on input line 167.
 
 
-Package natbib Warning: Citation `lbm' on page 17 undefined on input line 171.
+Package natbib Warning: Citation `lbm' on page 17 undefined on input line 169.
 
 
-Package natbib Warning: Citation `calkin' on page 17 undefined on input line 17
-1.
+Package natbib Warning: Citation `calkin' on page 17 undefined on input line 16
+9.
 
 
 Package natbib Warning: Citation `xadzkjdx' on page 17 undefined on input line 
-174.
+172.
 
 
-Package natbib Warning: Citation `yufin' on page 17 undefined on input line 174
+Package natbib Warning: Citation `yufin' on page 17 undefined on input line 172
 .
 
 
-Package natbib Warning: Citation `cgw' on page 17 undefined on input line 174.
+Package natbib Warning: Citation `cgw' on page 17 undefined on input line 172.
 
 [17
 
@@ -1869,28 +1869,28 @@ No file test-with-arara.bbl.
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 202.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
 [19
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 202.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
  (./test-with-arara.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 202.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 202.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 200.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
 Package rerunfilecheck Info: File `test-with-arara.out' has not changed.
 (rerunfilecheck)             Checksum: DF00C9ED6DF792A8A4AE6200E4BBB5FD;2890.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
- ) 
+ ) ) 
 Here is how much of TeX's memory you used:
- 34582 strings out of 492473
- 712650 string characters out of 6131001
- 1456011 words of memory out of 5000000
- 38625 multiletter control sequences out of 15000+600000
+ 34586 strings out of 492473
+ 712680 string characters out of 6131001
+ 1456056 words of memory out of 5000000
+ 38626 multiletter control sequences out of 15000+600000
  540798 words of font info for 159 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 65i,11n,109p,877b,541s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,11n,111p,894b,541s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on test-with-arara.pdf (37 pages).
